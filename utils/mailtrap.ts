@@ -1,4 +1,4 @@
-let client : any
+let client : any | string
 
 export const initMailtrap=async ()=>{
     if(typeof window==="undefined"){

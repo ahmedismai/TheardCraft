@@ -44,7 +44,7 @@ export default function PricingPage(){
     const {user,isSignedIn} =useUser()
     const [isLoading,setIsLoading]=useState(false)
 
-    const handleSubscribe = async (priceId:any )=>{
+    const handleSubscribe = async (priceId:unknown )=>{
         if(isLoading){
             return
         }

@@ -23,7 +23,7 @@ export async function POST(req:Request){
 
     try {
         event = stripe.webhooks.constructEvent(body, signature, process.env.STRIPE_WEBHOOK_SECRET!)
-    } catch (error:any) {
+    } catch (error:any | string) {
         console.error(`Webhook signature verification failed: ${error.message}`)
         return NextResponse.json(
             
@@ -92,7 +92,7 @@ export async function POST(req:Request){
             )}
             
             await updateUserPoints(userId , pointsToAdd)
-        } catch (error:any) {
+        } catch (error:any | string) {
             console.error("Error processing subscription:",error)
             return NextResponse.json(
                 {error:"Error processing subscription:", details: error.message},

@@ -85,7 +85,7 @@ export default function GenerateContent() {
       }
     };
     fetchData();
-  }, [isLoaded, isSignedIn, user, router]);
+  }, [isLoaded, isSignedIn, user, router ]);
 
   const fetchUserPoints =async () => {
     
