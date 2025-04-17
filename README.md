@@ -25,6 +25,6 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/ahmedismai/TheardCraft.git
-cd threadcraft-ai
+git clone https://github.com/ahmedismai/ThreadCraft-Ai.git
+cd threadcraft-Ai
 npm install
