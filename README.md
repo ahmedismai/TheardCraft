@@ -29,32 +29,3 @@ git clone https://github.com/ahmedismai/ThreadCraft-Ai.git
 cd threadcraft-Ai
 npm install
 
-## 🔧 Configuration
-Create a .env.local file in the root of the project and add the following:
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-WEBHOOK_SECRET=your_webhook_secret
-DATABASE_URL=your_database_url
-MAILTRAP_API_TOKEN=your_mailtrap_api_token
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
-NEXT_PUBLIC_BASE_URL=https://yourdomain.com
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
-
-Replace values with your actual credentials.
-
-
-## 🚀 Usage
-npm run dev
-Open http://localhost:3000 in your browser to see the app in action.
-
-🧠 How It Works
-Users sign up/login via Clerk.
-
-They generate threads or posts using the Gemini AI integration.
-
-Each generation deducts points from their balance.
-
-Users can preview, manage, or purchase additional credits via Stripe.
