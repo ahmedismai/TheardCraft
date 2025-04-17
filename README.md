@@ -29,8 +29,7 @@ git clone https://github.com/ahmedismai/ThreadCraft-Ai.git
 cd threadcraft-Ai
 npm install
 
-
-🔧 Configuration
+## 🔧 Configuration
 Create a .env.local file in the root of the project and add the following:
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
@@ -47,7 +46,7 @@ NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 Replace values with your actual credentials.
 
 
-🚀 Usage
+## 🚀 Usage
 npm run dev
 Open http://localhost:3000 in your browser to see the app in action.
 
