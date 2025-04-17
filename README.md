@@ -29,3 +29,5 @@ git clone https://github.com/ahmedismai/ThreadCraft-Ai.git
 cd threadcraft-Ai
 npm install
 
+## 🔧 Configuration
+Create a .env.local file in the root of the project and add the following:
