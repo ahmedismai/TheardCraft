@@ -65,4 +65,4 @@ Open http://localhost:3000 in your browser to see the app in action.
 4- Users can preview, manage, or purchase additional credits via Stripe.
 
 
-## Made with ❤️ by Ahmed Ismail Amer
+## Made with ❤️ Ahmed Ismail Amer
